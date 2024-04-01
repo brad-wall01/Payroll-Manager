@@ -11,41 +11,10 @@ const collectEmployees = function() {
     let firstName = prompt("Enter first name");
     let lastName = prompt("Enter last name");
     let salary = prompt("Enter a salary");
-    let answer = prompt("Would you like to add another employee?" + "(yes or no)");
+    let answer = prompt("Do you wish to add another employee?");
     let array = [firstName, lastName, salary];
     console.log(array)
-  }if (answer.toLowerCase()=== "yes"){
-    return true
-  }else if (answer.toLowerCase()=== "no"){
-    return false;
   }
-
-
-  // console.log(n)
-
-  // let firstName = prompt("Enter first name");
-  // let lastName = prompt("Enter last name");
-  // let salary = prompt("Enter a salary");
-  // let array = [firstName, lastName, salary];
-  // console.log(array)
-
-  // while (array) {
-  //   prompt()
-  // }
-
- 
-  // let firstName = "Bradley"
-  // let lastName = "Wallace"
-  // let salary = 120
-  
-  // let employeesArray = [firstName, lastName, salary];
-  
-
-  // while (employeesArray < 3) {
-  //   employeesArray++;
-  // }
-
-  // console.log(employeesArray)
 }
 
 
